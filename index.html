@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chartset="UTF-8">
+        <meta http-equiv-"X-UA-Compatible" content-"IE-edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Beverly Villa</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!---header site-->
+        <header>
+            <div class="logo"><span>Beverly</span> Villa</div>
+            <ul class="navlist">
+                <ui><a href="#home">Home</a></ui>
+                <ui><a href="#about">About</a></ui>
+                <ui><a href="#service">Service</a></ui>
+                <ui><a href="#booking">booking</a></ui>
+                <ui><a href="#gallery">gallery</a></ui>
+                <ui><a href="#contact">Contact</a></ui>
+            </ul>
+            <div id="menu-icon" class="bx bx-menu"></div>
+        </header>
+
+        <!--home section-->
+        <section id="home" class="home">
+            <div class="home-content">
+                <h1>Timeless Elegance</h1>
+                <p>There's nothing quite like the warm embrace of a familiar dish. At Beverly Villa, we dish up comfort food classics with a modern twist. Think grandma's mac and cheese, but elevated with a truffle crumble. Or, imagine your favorite pot roast, slow-cooked to perfection with a hint of rosemary and garlic. We believe that food is more than just sustenance; it's a hug on a plate, a reminder of home, and a celebration of the good things in life. So come in, pull up a chair, and let us nourish your soul with a taste of pure comfort.</p>
+
+                <div class="info-box">
+                    <div class="email-info">
+                        <h5>Email :</h5>
+                        <span>beverlyvilla@gmail.com</span>
+                    </div>
+                    
+                </div>
+
+                <div class="btn-box">
+                    <a href="#booking" class="btn">Book a Table</a>
+                </div>
+            </div>
+            <div class="home-image">
+                <div class="img-box">
+                    <img src="restaurant-home-view.jpg" alt="">
+                </div>
+
+            </div>
+        </section>
+
+                <!--about section-->
+                <section id="about" class="about">
+                    <div class="img-about">
+                        <img src="images--main/about-me-pic2.png" alt="">
+                    </div>
+                    <div class="about-content">
+                        <span>Let Me Introduce Hotel</span>
+                        <h2>About Beverly villa</h2>
+                        <p>Beverly Villa is a luxurious colonial-style villa located just 200 meters from the stunning Mount Lavinia Beach.
+                            With its prime location, guests can enjoy the breathtaking ocean views and soak up the sun on the white sand beaches. <br><br> 
+                        The villa boasts spacious and elegantly decorated rooms, each with its own unique character and charm. Guests will have access
+                        to all the modern amenities they need for a comfortable stay, including air conditioning, Wi-Fi, 
+                        and flat-screen TVs. <br><br> Beverly Villa is the ideal getaway for those seeking luxury and comfort, 
+                        combined with the beauty of the Sri Lankan coast. Whether you’re traveling with friends, family, or for business,
+                         this stunning villa is the perfect place to escape and enjoy a slice of paradise. </p>
+
+                        <div class="btn-box">
+                            <a href="#" class="btn">Read More !</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!--services section-->
+
+                <section id="service" class="services">
+                    <div class="main-text">
+                        <span>what I will serve for you</span>
+                        <h2>Our Services</h2>
+                    </div>
+
+                    <div class="section-services">
+                        <div class="service-box">
+                            <i class='bx bxs-layer service-icon'></i>
+                            <h3>COLONIAL VILLA & GUEST HOUSE</h3>
+                            <p>Colonial Villa & Guest House offers a charming and immersive retreat, inviting guests to experience the allure of a bygone era while indulging in modern comforts. Nestled amidst lush surroundings, this boutique accommodation embodies the essence of colonial architecture, seamlessly blending historical charm with contemporary luxury. The villa, with its colonial-inspired design, exudes an old-world elegance that captivates guests from the moment they step through the entrance.</p>
+                            <div class="btn-box service-btn">
+                                <a href="#" class="btn">Read More</a>
+                            </div>
+                        </div>
+                        <div class="service-box">
+                            <i class='bx bx-desktop service-icon'></i>
+                            <h3>DAY OUTS</h3>
+                            <p>Day Outs, a concept that embodies the spirit of leisure and relaxation, offers individuals the perfect respite from the routines of daily life. Providing an escape from the hustle and bustle of city living, Day Outs are designed to be rejuvenating experiences that allow people to unwind, recharge, and connect with nature and their surroundings. Whether it's a serene day at a countryside retreat, a thrilling adventure in an amusement park, or a leisurely stroll through botanical gardens, Day Outs cater to diverse interests and preferences.</p>
+                            <div class="btn-box service-btn">
+                                <a href="#" class="btn">Read More</a>
+                            </div>
+                        </div>
+                        <div class="service-box">
+                            <i class='bx bx-code-alt service-icon'></i>
+                            <h3>DINE-IN RESTAURANT</h3>
+                            <p>A Dine-In Restaurant, a sanctuary for culinary enthusiasts, transcends the simple act of eating to become a symphony of flavors, ambiance, and shared moments. It is a haven where gastronomy meets social experience, offering patrons more than just a meal but an immersive journey into the world of delectable cuisine. Stepping into a dine-in restaurant is an invitation to a sensorial delight, where the aroma of expertly crafted dishes tantalizes the senses and the ambiance sets the stage for an unforgettable dining experience.</p>
+                            <div class="btn-box service-btn">
+                                <a href="#" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Online  Order-->
+
+                <section id="booking" class="booking">
+                    <div class="main-text">
+                        <span>Make a Reservation</span>
+                        <h2>Online Booking</h2>
+                    </div>
+                    <form id="bookingForm" action="#" method="POST">
+                        <label for="checkInDate">Check-In Date:</label>
+                        <input type="date" id="checkInDate" name="checkInDate" required>
+            
+                        <label for="checkOutDate">Check-Out Date:</label>
+                        <input type="date" id="checkOutDate" name="checkOutDate" required>
+            
+                        <label for="guestType">Guest Type:</label>
+                        <select id="guestType" name="guestType" required>
+                            <option value="select option">Select Option</option>
+                            <option value="single">Single</option>
+                            <option value="double">Double</option>
+                            <option value="family">Family</option>
+                        </select>
+            
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Your Full Name" required>
+            
+                        <label for="mobileNumber">Mobile Number:</label>
+                        <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="Your Mobile Number" pattern="[0-9]{10}" required>
+            
+                        <div class="btn-box formBtn">
+                            <button type="submit" class="btn">Book Now</button>
+                        </div>
+                    </form>
+                </section>
+
+
+                <!---gallery section-->
+                <section id="gallery" class="gallery">
+                    <div class="main-text">
+                        <span>What I will do for you</span>
+                        <h2>Galley</h2>
+                    </div>
+
+                    <div class="container">
+                        <div class="portfolio-gallery">
+                            <div class="port-box mix product">
+                                <div class="port-image">
+                                    <img src="images--main/1.jpg" alt="">
+                                </div>
+                                <div class="port-content">
+                                    <h3>Bed Rooms</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat atque laudantium magni odio iste. Voluptatum, porro accusantium, illo facere nesciunt facilis saepe quas ut cum omnis error ad dignissimos aut.</p>
+                                    <a href="#"><i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+
+                            <div class="port-box mix product">
+                                <div class="port-image">
+                                    <img src="images--main/2.jpg" alt="">
+                                </div>
+                                <div class="port-content">
+                                    <h3>Fish Therapy</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat atque laudantium magni odio iste. Voluptatum, porro accusantium, illo facere nesciunt facilis saepe quas ut cum omnis error ad dignissimos aut.</p>
+                                    <a href="#"><i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+
+                            <div class="port-box mix inter">
+                                <div class="port-image">
+                                    <img src="images--main/3.jpg" alt="">
+                                </div>
+                                <div class="port-content">
+                                    <h3>Classic Look</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat atque laudantium magni odio iste. Voluptatum, porro accusantium, illo facere nesciunt facilis saepe quas ut cum omnis error ad dignissimos aut.</p>
+                                    <a href="#"><i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+
+                            <div class="port-box mix inter">
+                                <div class="port-image">
+                                    <img src="images--main/4.jpg" alt="">
+                                </div>
+                                <div class="port-content">
+                                    <h3>Modern Outdoor</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat atque laudantium magni odio iste. Voluptatum, porro accusantium, illo facere nesciunt facilis saepe quas ut cum omnis error ad dignissimos aut.</p>
+                                    <a href="#"><i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+
+                            <div class="port-box mix inter">
+                                <div class="port-image">
+                                    <img src="images--main/5.jpg" alt="">
+                                </div>
+                                <div class="port-content">
+                                    <h3>Modern Indoor</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat atque laudantium magni odio iste. Voluptatum, porro accusantium, illo facere nesciunt facilis saepe quas ut cum omnis error ad dignissimos aut.</p>
+                                    <a href="#"><i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+
+                            <div class="port-box mix web">
+                                <div class="port-image">
+                                    <img src="images--main/6.jpg" alt="">
+                                </div>
+                                <div class="port-content">
+                                    <h3>Bangalore Look</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat atque laudantium magni odio iste. Voluptatum, porro accusantium, illo facere nesciunt facilis saepe quas ut cum omnis error ad dignissimos aut.</p>
+                                    <a href="#"><i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+        <!---contact section----------------->
+                
+                <section id="contact" class="contact">
+                    <div class="main-text">
+                        <span>Ask me Question</span>
+                        <h2>Contact me !</h2>
+                    </div>
+                    <form action="#">
+                        <input type="text" placeholder="Your Name">
+                        <input type="text" placeholder="Your Email">
+                        <input type="text" placeholder="Your Address">
+                        <input type="text" placeholder="Your Number">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <div class="btn-box formBtn">
+                            <button type="submit" class="btn">Send Message</button>
+                        </div>
+                    </form>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63371.8151251542!2d79.8562055!3d6.92183865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1705686160520!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+
+                <!-----Footer Web Site----->
+
+                <footer>
+                    <p>Copyright &copy; 2024 by CaffeineCoders || All Rights Reserved</p>
+                    <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+                </footer>
+        <script src="mixitup.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
